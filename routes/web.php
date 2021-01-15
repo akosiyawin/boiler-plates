@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 Auth::routes();
 
-Route::redirect('/','/login');
-Route::view('/{any?}','layouts.index');
+//Route::redirect('/','/login');
+//Route::view('/{any?}','layouts.index');
+Route::view('/{any}','index')->where('any','.*');
