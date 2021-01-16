@@ -10,7 +10,7 @@ require('./bootstrap');
 window.Vue = require('vue').default;
 import router from "./tools/middleware";
 
-Vue.component('Navbar', require('./vue/Navbar').default);
+Vue.component('App', require('./vue/App').default);
 
 const app = new Vue({
     el: '#app',
