@@ -20,7 +20,7 @@ This project is a setup of boiler plate for your Laravel & Vue project.
 > - Setup for API
 > - Setup for Form Validation & Submission
 
-##How to Get Started
+## How to Get Started
 > - Install composer requirements `composer install`
 > - Install npm package `npm install`
 > - Run Dev Dependencies `npm run dev`
