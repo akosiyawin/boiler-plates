@@ -8,12 +8,9 @@
 
 require('./bootstrap');
 window.Vue = require('vue').default;
-import VueRouter from 'vue-router';
 import router from "./tools/middleware";
 
-Vue.use(VueRouter);
 Vue.component('Navbar', require('./vue/Navbar').default);
-
 
 const app = new Vue({
     el: '#app',
