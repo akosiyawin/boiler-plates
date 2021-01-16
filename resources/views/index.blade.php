@@ -1,11 +1,6 @@
-@extends('layouts.index')
+@extends('layouts.app')
 
 @section('content')
-    <nav class="nav">
-        <router-link class="nav-item mr-3" to="/about" >About</router-link>
-        <router-link class="nav-item" to="/" exact>Welcome</router-link>
-    </nav>
-
+    <Navbar></Navbar>
     <router-view></router-view>
 @endsection
-
