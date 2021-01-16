@@ -11,7 +11,7 @@
 
 This project is a setup of boiler plate for your Laravel & Vue project.
 
-### Whats included in this project?
+### What's included in this project
 > - Sanctum Authentication
 > - Login & Logout
 > - Account Registration 
@@ -20,6 +20,12 @@ This project is a setup of boiler plate for your Laravel & Vue project.
 > - Setup for API
 > - Setup for Form Validation & Submission
 
+##How to Get Started
+> - Install composer requirements `composer install`
+> - Install npm package `npm install`
+> - Run Dev Dependencies `npm run dev`
+> - Configure your database settings on `.env` 
+> - Run Migration `php artisan migrate` or `php artisan migrate:fresh`
 
 ## License
 
