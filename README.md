@@ -7,9 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About My Project
+## About This Project
 
-My practice project
+This project is a setup of boiler plate for your Laravel & Vue project.
+
+### Whats included in this project?
+> - Sanctum Authentication
+> - Login & Logout
+> - Account Registration 
+> - Setup for Vue Routes
+> - Setup for Vue Middlewares
+> - Setup for API
+> - Setup for Form Validation & Submission
+
 
 ## License
 
