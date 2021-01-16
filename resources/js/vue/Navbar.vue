@@ -47,7 +47,7 @@ export default {
     },
     mounted() {
         this.setLoggedIn()
-        this.$root.$on('tae', (status)=>{
+        this.$root.$on('toggleLogin', (status)=>{
             this.loggedIn = status
         })
     }

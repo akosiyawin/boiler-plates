@@ -26,7 +26,7 @@ export default {
     mounted() {
         axios.get('/api/user')
         .then(r=>{
-            this.$root.$emit('tae',true)
+            this.$root.$emit('toggleLogin',true)
             this.user = r.data.data
         })
     },
@@ -34,7 +34,7 @@ export default {
         logout(){
             axios.post('/api/user/logout')
             .then(()=>{
-                this.$root.$emit('tae',false)
+                this.$root.$emit('toggleLogin',false)
                 this.$router.push({name:'welcome'})
             })
         }

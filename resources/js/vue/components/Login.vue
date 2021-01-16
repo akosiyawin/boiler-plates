@@ -43,7 +43,6 @@ export default {
             })
             .catch(err=>{
                 this.form.errors.set(err.errors);
-                console.log(this.form.errors)
             })
         }
     }

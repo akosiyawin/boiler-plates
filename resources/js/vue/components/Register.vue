@@ -70,7 +70,8 @@ export default {
         submitForm(){
             this.form.post('/api/user/register')
             .then(response=>{
-                // this.$router.push({name:'dashboard'})
+                this.$root.$emit('toggleLogin',true)
+                this.$router.push({name:'dashboard'})
             })
             .catch(err=>{
                 this.form.errors.set(err.errors);
